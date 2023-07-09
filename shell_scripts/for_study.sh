@@ -9,3 +9,8 @@ for i in {0..2}
 do
     echo "index: $i"
 done
+
+for f in $(ls)
+do
+    echo "file: $f"
+done

@@ -14,3 +14,8 @@ for f in $(ls)
 do
     echo "file: $f"
 done
+
+for ((i=0; i<10; i++))
+do
+    echo "i: $i"
+done
